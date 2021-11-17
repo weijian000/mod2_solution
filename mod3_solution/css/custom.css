@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1,h3,li{
+    text-align: center;
+}
+h3{
+    padding-top: 5px;
+}
+
+p{
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div.col-lg-4{
+    background-color: grey;
+    border: 5px solid white;
+}
+.container{
+    margin:auto;
+}
+.row{
+    margin-left: 0%;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    button{
+        display: none;
+    }
+    li {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    button{
+        display: none;
+    }
+    li{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    
+}
